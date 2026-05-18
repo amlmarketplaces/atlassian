@@ -1,0 +1,51 @@
+{
+  "name": "atlassian",
+  "owner": {
+    "name": "Atlassian"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/atlassian-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "atlassian-bitbucket",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-bitbucket.git"
+      }
+    },
+    {
+      "name": "atlassian-confluence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-confluence.git"
+      }
+    },
+    {
+      "name": "atlassian-forge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-forge.git"
+      }
+    },
+    {
+      "name": "atlassian-jira",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-jira.git"
+      }
+    },
+    {
+      "name": "atlassian-jira-service-management",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-jira-service-management.git"
+      }
+    },
+    {
+      "name": "atlassian-trello",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-trello.git"
+      }
+    }
+  ]
+}
